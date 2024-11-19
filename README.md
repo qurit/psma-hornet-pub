@@ -24,13 +24,13 @@ PMID: 37544015
 ## Requirements
 - Python 3.8+
 - Python packages:
-	-- tensorflow==2.3.1
-	-- numpy
-	-- pydicom  
-	-- glob2 
-	-- scipy 
-	-- rt_utils
-	-- opencv-python  
+	- tensorflow==2.3.1
+	- numpy
+	- pydicom
+	- glob2
+	- scipy
+	- rt_utils
+	- opencv-python  
 	
 ## Installation
 - You should be able to run the test inference script (main.py) from a native or virtual Python/Conda environment
@@ -49,11 +49,11 @@ In the script `main.py`, set the variable `INPUT_DIR` to the folders where the P
 ## Project Structure 
 ```md
 psma-hornet/
-├── main.py                                                              # Python script for evaluating the model
-├── hornetlib.py                                                         # Utility functions
-├── unet2D_pretrain_inputfusion_vlarge_multioutput.200ep.fold0.h5        # Model trained parameters
-├── README.md                                                            # Project documentation
-└── LICENSE                                                              # License file
+├── main.py                # Python script for evaluating the model
+├── hornetlib.py           # Utility functions and architecture definitions
+├── hornet_model.h5        # Model trained parameters
+├── README.md              # Project documentation
+└── LICENSE                # License file
 ```
 ## Licence 
 
