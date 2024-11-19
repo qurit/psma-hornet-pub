@@ -1,7 +1,7 @@
 # PSMA-Hornet: Fully-automated, multi-target segmentation of healthy organs in PSMA PET/CT images
 
 <p align="left">
-    <img alt="PyPI - License" src="https://img.shields.io/github/license/qurit/rt-utils?color=g" height="18" />
+    <img alt="PyPI - License" src="https://img.shields.io/badge/license-MIT-blue" height="18" />
 </p>
 
 This repository contains an AI model and accompanying Python scripts for fully-automated simultaneous segmentation of 14 healthy organs with high tracer uptake onPET/CT images. The imaging tracer used in model development was [18F]DCFPyL.
